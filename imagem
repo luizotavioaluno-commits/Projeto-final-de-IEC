@@ -1,1 +1,10 @@
+\section{Exemplo de Ciclo Scrum}
+A Figura~\ref{fig:scrum} apresenta um exemplo simplificado do ciclo Scrum.
 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{scrum.png}
+\caption{Ciclo de desenvolvimento Scrum}
+\label{fig:scrum}
+\end{figure}
