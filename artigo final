@@ -1,1 +1,104 @@
+\documentclass[12pt,a4paper]{article}
 
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\title{A Importância das Metodologias Ágeis no Desenvolvimento de Software}
+\author{Luiz Otavio Gonçalves da Silva}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\newpage
+
+\tableofcontents
+\newpage
+
+\input{introducao}
+\input{metodologias}
+\input{figura}
+\input{tabela}
+\input{bibliografia}
+
+\end{document}
+
+\section{Metodologias Ágeis}
+As metodologias ágeis são baseadas em ciclos curtos de desenvolvimento, conhecidos como sprints, permitindo adaptações rápidas às mudanças. Entre os principais métodos estão Scrum e Kanban.
+
+Essas abordagens favorecem a comunicação, reduzem riscos e aumentam a qualidade do produto final.
+
+\subsection{Expressão Matemática}
+Uma forma simples de medir produtividade em uma sprint é dada por:
+
+\begin{equation}
+M = \frac{T_c}{D}
+\end{equation}
+
+Onde 
+𝑀
+ é a média de tarefas concluídas por dia, 
+𝑇
+𝑐
+ o total de tarefas concluídas e 
+𝐷
+ o número de dias da sprint.
+
+\section{Exemplo de Ciclo Scrum}
+A Figura~\ref{fig:scrum} apresenta um exemplo simplificado do ciclo Scrum.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{scrum.png}
+\caption{Ciclo de desenvolvimento Scrum}
+\label{fig:scrum}
+\end{figure}
+
+\section{Tabela}
+A Tabela~\ref{tab:comparacao} compara metodologias tradicionais e ágeis.
+
+\begin{table}[h]
+\centering
+\caption{Comparação entre metodologias}
+\label{tab:comparacao}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Critério} & \textbf{Tradicional} & \textbf{Ágil} \
+\midrule
+Flexibilidade & Baixa & Alta \
+Entrega contínua & Não & Sim \
+Participação do cliente & Baixa & Alta \
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Referências Bibliográficas}
+
+As referências utilizadas neste trabalho são gerenciadas com BibTeX.
+
+\bibliographystyle{plain}
+\bibliography{referencias}
+\input{referencias.bib}
+
+@book{pressman2016,
+titulo={Engenharia de Software},
+autor={Pressman, Roger S.},
+ano={2016},
+publicação={McGraw-Hill}
+}
+
+@book{sommerville2011,
+titulo={Engenharia de Software},
+autor={Sommerville, Ian},
+ano={2011},
+publicação={Pearson}
+}
