@@ -1,1 +1,17 @@
+\section{Metodologias Ágeis}
+As metodologias ágeis são baseadas em ciclos curtos de desenvolvimento, conhecidos como sprints, permitindo adaptações rápidas às mudanças. Entre os principais métodos estão Scrum e Kanban.
 
+
+Essas abordagens favorecem a comunicação, reduzem riscos e aumentam a qualidade do produto final.
+
+
+\subsection{Expressão Matemática}
+Uma forma simples de medir produtividade em uma sprint é dada por:
+
+
+\begin{equation}
+M = \frac{T_c}{D}
+\end{equation}
+
+
+Onde $M$ é a média de tarefas concluídas por dia, $T_c$ o total de tarefas concluídas e $D$ o número de dias da sprint.
