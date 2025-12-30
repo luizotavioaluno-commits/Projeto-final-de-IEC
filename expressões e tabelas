@@ -1,0 +1,18 @@
+\section{Tabela}
+A Tabela~\ref{tab:comparacao} compara metodologias tradicionais e ágeis.
+
+
+\begin{table}[h]
+\centering
+\caption{Comparação entre metodologias}
+\label{tab:comparacao}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Critério} & \textbf{Tradicional} & \textbf{Ágil} \\
+\midrule
+Flexibilidade & Baixa & Alta \\
+Entrega contínua & Não & Sim \\
+Participação do cliente & Baixa & Alta \\
+\bottomrule
+\end{tabular}
+\end{table}
