@@ -1,0 +1,24 @@
+\section{Referências Bibliográficas}
+
+
+As referências utilizadas neste trabalho são gerenciadas com BibTeX.
+
+
+\bibliographystyle{plain}
+\bibliography{referencias}
+\input{referencias.bib}
+
+@book{pressman2016,
+titulo={Engenharia de Software},
+autor={Pressman, Roger S.},
+ano={2016},
+publicação={McGraw-Hill}
+}
+
+
+@book{sommerville2011,
+titulo={Engenharia de Software},
+autor={Sommerville, Ian},
+ano={2011},
+publicação={Pearson}
+}
